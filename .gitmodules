@@ -1,3 +1,3 @@
 [submodule "FlameGraph"]
 	path = FlameGraph
-	url = git@github.com:brendangregg/FlameGraph.git
+	url = git@github.com:stuarteberg/FlameGraph.git
