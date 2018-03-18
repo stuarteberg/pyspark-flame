@@ -75,8 +75,8 @@ class FlameProfiler(Profiler):
         return self._accumulator.value
 
     def show(self, id):
-        print "Flame Data for RDD {}".format(id)
-        print self.format()
+        print("Flame Data for RDD {}".format(id))
+        print(self.format())
 
     def dump(self, id, path):
         with open(join(path, 'rdd-{}.flame'.format(id)), 'w') as f:
